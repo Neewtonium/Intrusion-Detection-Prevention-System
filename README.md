@@ -1,7 +1,5 @@
 
 
----
-
 Incognito IDPS ⚡
 
 Advanced Intrusion Detection and Prevention System for Host Security
@@ -11,11 +9,17 @@ Silent Thunder IDPS is a powerful Host-Based Intrusion Detection and Prevention 
 🔥 Key Features
 
 ✅ Real-Time File System Monitoring – Detects file creation, modification, deletion, and movement in protected directories.
+
 ✅ Network Activity Tracking – Monitors incoming and outgoing network connections for suspicious behavior.
+
 ✅ Process Monitoring – Detects unauthorized or unusual system processes.
+
 ✅ AI-Powered Anomaly Detection – Uses Machine Learning (Isolation Forest, One-Class SVM) to identify unusual activity patterns.
+
 ✅ Customizable Alert System – Sends real-time notifications via email, Telegram, or desktop alerts.
+
 ✅ Automated Threat Response – Can block malicious processes or network activity based on detection rules.
+
 ✅ Lightweight and Efficient – Optimized for minimal system impact while maintaining high security.
 
 
