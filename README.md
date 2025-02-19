@@ -29,7 +29,8 @@ Silent Thunder IDPS is a powerful Host-Based Intrusion Detection and Prevention 
 
 **Step 1: Clone the Repository**
 
-`git clone https://github.com/Neewtonium/Intrusion-Detection-Prevention-System`
+`git clone` https://github.com/Neewtonium/Intrusion-Detection-Prevention-System
+
 `cd Silent-Thunder-IDPS`
 
 **Step 2: Install Dependencies**
