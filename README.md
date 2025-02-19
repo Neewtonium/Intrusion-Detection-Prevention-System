@@ -29,12 +29,12 @@ Silent Thunder IDPS is a powerful Host-Based Intrusion Detection and Prevention 
 
 Step 1: Clone the Repository
 
-`git clone https://github.com/Neewtonium/Intrusion-Detection-Prevention-System
-cd Silent-Thunder-IDPS`
+`git clone https://github.com/Neewtonium/Intrusion-Detection-Prevention-System`
+`cd Silent-Thunder-IDPS`
 
 Step 2: Install Dependencies
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Step 3: Configure Monitoring
 
@@ -49,7 +49,7 @@ Anomaly detection thresholds
 
 Step 4: Run Silent Thunder IDPS
 
-python idps.py
+`python idps.py`
 
 
 ---
