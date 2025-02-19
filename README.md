@@ -1,44 +1,84 @@
-# Intrusion Detection and Prevention System (IDPS)
-#### Author: [Hamza Khalid](https://github.com/hmzakhalid) 
 
-This project is a basic Intrusion Detection and Prevention System (IDPS) designed to monitor various activities on a host system, detect suspicious behavior, and alert the user to possible threats. The IDPS includes file system, network, and process monitoring, as well as anomaly detection features.
 
-## Features
+---
 
-1. Monitor file system changes (create, modify, delete, move) in a specified directory.
-2. Monitor network connections.
-3. Monitor system processes.
-4. Anomaly detection based on the number of events in a short period and machine learning techniques (Isolation Forest algorithm).
+Incognito IDPS ⚡
 
-## Installation
+Advanced Intrusion Detection and Prevention System for Host Security
 
-1. Clone the repository:
-`git clone https://github.com/hmzakhalid/Intrusion-Detection-Prevention-System`
-2. Install the required Python packages:
-`pip install -r requirements.txt`
+Silent Thunder IDPS is a powerful Host-Based Intrusion Detection and Prevention System (HIDS) designed to monitor, detect, and prevent unauthorized activities on a system. It combines real-time file system monitoring, network surveillance, and process tracking with an AI-powered anomaly detection engine to identify potential threats before they escalate.
 
-## Usage
+🔥 Key Features
 
-1. Edit the `idps.py` script and set the `path` variable to the directories you want to monitor.
+✅ Real-Time File System Monitoring – Detects file creation, modification, deletion, and movement in protected directories.
+✅ Network Activity Tracking – Monitors incoming and outgoing network connections for suspicious behavior.
+✅ Process Monitoring – Detects unauthorized or unusual system processes.
+✅ AI-Powered Anomaly Detection – Uses Machine Learning (Isolation Forest, One-Class SVM) to identify unusual activity patterns.
+✅ Customizable Alert System – Sends real-time notifications via email, Telegram, or desktop alerts.
+✅ Automated Threat Response – Can block malicious processes or network activity based on detection rules.
+✅ Lightweight and Efficient – Optimized for minimal system impact while maintaining high security.
 
-2. Run the IDPS:
-`python idps.py`
 
-The IDPS will begin monitoring the specified directory and the host system for any suspicious activity. Detected events will be logged in the following files:
+---
 
-- `file_system_log.txt`: File system changes
-- `network_connections_log.txt`: Network connections
-- `processes_log.txt`: System processes
+🚀 Installation & Setup
 
-Additionally, the IDPS will alert the user if an anomaly is detected based on the number of events in a short period or unusual event patterns recognized by the Isolation Forest algorithm.
+Step 1: Clone the Repository
 
-## Customization
+git clone https://github.com/your-username/Silent-Thunder-IDPS.git
+cd Silent-Thunder-IDPS
 
-You can customize various aspects of the IDPS, such as the monitoring intervals, anomaly detection thresholds, and logging options, by editing the corresponding variables and parameters in the `idps.py`,  `monitor.py` and `detector.py` scripts.
+Step 2: Install Dependencies
 
-## Limitations and Future Work
+pip install -r requirements.txt
 
-This IDPS is a basic implementation and has several limitations. The anomaly detection system could be further enhanced by incorporating more advanced machine learning algorithms, statistical models, or event pattern analysis. Integrating the IDPS with other security tools and platforms can also improve its effectiveness.
+Step 3: Configure Monitoring
+
+Edit config.py to set:
+
+Directories to monitor
+
+Alert preferences (email, Telegram, logs)
+
+Anomaly detection thresholds
+
+
+Step 4: Run Silent Thunder IDPS
+
+python idps.py
+
+
+---
+
+🛠 Customization
+
+Silent Thunder IDPS is fully customizable! Modify settings in config.py to:
+
+Adjust monitoring frequency
+
+Change anomaly detection sensitivity
+
+Set up automated responses (e.g., blocking IPs, terminating processes)
+
+
+
+---
+
+📌 Future Enhancements
+
+🚧 Cloud-Based Logging – Secure logs to a remote server for better security.
+🚧 Threat Intelligence Integration – Compare logs with real-world cyber threat databases.
+🚧 GUI Dashboard – A web interface for easy monitoring and control.
+
+
+---
+
+📜 License & Contributions
+
+This project is open-source under the MIT License. Contributions are welcome!
+
+
+---
 
 
 
