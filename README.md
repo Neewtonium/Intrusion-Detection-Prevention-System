@@ -4,7 +4,7 @@
 
 Advanced Intrusion Detection and Prevention System for Host Security
 
-Silent Thunder IDPS is a powerful Host-Based Intrusion Detection and Prevention System (HIDS) designed to monitor, detect, and prevent unauthorized activities on a system. It combines real-time file system monitoring, network surveillance, and process tracking with an AI-powered anomaly detection engine to identify potential threats before they escalate.
+Incognito IDPS is a powerful Host-Based Intrusion Detection and Prevention System (HIDS) designed to monitor, detect, and prevent unauthorized activities on a system. It combines real-time file system monitoring, network surveillance, and process tracking with an AI-powered anomaly detection engine to identify potential threats before they escalate.
 
 **🔥 Key Features**
 
@@ -31,7 +31,7 @@ Silent Thunder IDPS is a powerful Host-Based Intrusion Detection and Prevention 
 
 `git clone` https://github.com/Neewtonium/Intrusion-Detection-Prevention-System
 
-`cd Silent-Thunder-IDPS`
+`cd IDPS`
 
 **Step 2: Install Dependencies**
 
